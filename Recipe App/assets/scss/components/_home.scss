@@ -1,0 +1,112 @@
+.o-home {
+  &__input-container {
+    width: 64%;
+    margin: 10px auto 0 auto;
+  }
+
+  &__container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__container-data {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    width: 75%;
+    flex-wrap: wrap;
+  }
+
+  &__recipe-card-div {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    margin-bottom: 10px;
+    margin: 20px auto;
+    &:first-of-type {
+      margin-top: 50px;
+    }
+  }
+
+  &__recipe-card {
+    font-family: 'Sorts Mill Goudy', serif;
+    position: relative;
+    padding: 30px;
+    height: 240px;
+    width: 42%;
+    background-color: $light-green;
+    border-radius: 8px;
+    margin: 20px auto;
+    &_mobile {
+      width: 100%;
+      height: 270px;
+    }
+  }
+
+  &__recipe-card-attr {
+    text-align: left;
+    &_img {
+      max-width: 150px;
+      width: 35%;
+      height: auto;
+      @include position(absolute, auto, 0, 0, auto);
+      border-bottom-right-radius: 8px;
+      &_mobile {
+        max-width: 120px;
+      }
+    }
+
+    &_title {
+      padding-top: 10px;
+      &_mobile {
+        padding-top: 10px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    &_content {
+      max-width: 70%;
+      &_mobile {
+        max-width: 64%;
+      }
+    }
+
+    &_button {
+      padding: 10px;
+      background-color: $light-red;
+      color: $white;
+      vertical-align: middle;
+      cursor: pointer;
+      border-radius: 8px;
+      @include position(absolute, auto, auto, 30px, 30px);
+    }
+  }
+
+  &__input-search {
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid $light-gray;
+    margin: 10px 0 10px 0;
+  }
+
+  &__pagination {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__pagination-index {
+    margin: 0 10px 0 10px;
+  }
+
+  &__btn-search {
+    margin-top: 10px;
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid $light-gray;
+    width: 89px;
+  }
+}

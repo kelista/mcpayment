@@ -1,0 +1,41 @@
+h1 {
+  @include font(27px,37px);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  @include font(21px,28px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h3 {
+  @include font(17px,23px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h4 {
+  @include font(21px,24px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h5 {
+  @include font(17px,23px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h6 {
+  @include font(16px,20px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+p {
+  @include font(13px, 18px);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}

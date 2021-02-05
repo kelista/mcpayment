@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Application</title>
+  <link rel="stylesheet" type="text/css" href="/assets/scss/style.css" />
+</head>
+<body>
+  <div class="o-home">
+    <div class="o-home__container">
+      <div class="o-home__input-container">
+        <input id="ingredients-input" class="o-home__input-search" placeholder="Search Ingredients (onions,garlic)"/>
+        <input id="recipe-input" class="o-home__input-search" placeholder="Search Recipe"/>
+        <button id="submit-search-btn" class="o-home__btn-search">Submit</button>
+      </div>
+      <div class="o-home__container-data"></div>
+    </div>
+    <div class="o-home__pagination">
+      <button id="pagination-back"><</button>
+      <span id="pagination-index-text" class="o-home__pagination-index">1</span>
+      <button id="pagination-next">></button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+  <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget App</title>
+  <link rel="stylesheet" type="text/css" href="/assets/scss/style.css" />
+</head>
+<body>
+  <div class="o-home">
+    <div class="o-home__container">
+      <button id="clear-button" class="o-home__clear-btn">CLEAR</button>
+      <img src="/assets/images/money.png" class="o-home__money-img"/>
+      <div id="total-balance" class="o-home__total-balance">0</div>
+      <div class="o-home__tabs">
+        <button id="button-income-tab">INCOME</button>
+        <button id="button-expenses-tab">EXPENSES</button>
+        <button id="button-all-trans-tab">TRANSACTION</button>
+      </div>
+      <div class="o-home__main">
+        <div>
+          <span id="status-trans" class="o-home__status-tabs"></span>
+        </div>
+        <h1 id="total-income" class="o-home__total-income"></h1><br>
+        <hr>
+        <div id="list-container" class="o-home__list-container"></div>
+      </div>
+    </div>
+    <div id="input-section" class="o-home__input-section">
+      <hr>
+      <input type="text" id="name-input" class="o-home__input"/>
+      <input type="number" id="amount-input" placeholder="Input Amount" class="o-home__input"/><br>
+      <button id="submit-button">SUBMIT</button>
+    </div>
+  </div>
+
+  <script src="/js/index.js"></script>
+</body>
+</html>

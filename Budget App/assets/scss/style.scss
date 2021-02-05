@@ -1,0 +1,28 @@
+.loading-gif {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+//Settings
+@import "settings/color";
+
+//Tools
+@import "tools/mixins";
+
+//Elements
+@import "elements/fonts";
+@import "elements/heading";
+@import "elements/page";
+
+//Object
+@import "object/wrapper";
+
+//Components
+@import "components/home";
+
+//Utilities
+@import "utilities/trump";
+
+//Tools
+@import "tools/mixins";

@@ -1,0 +1,10 @@
+.o-home {
+  width: 100vw;
+}
+
+.o-overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  @include position(fixed, 0, auto, auto, 0);
+}

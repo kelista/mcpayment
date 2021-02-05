@@ -1,0 +1,14 @@
+@mixin position($pos, $top:auto,$right:auto,$bottom:auto,$left:auto){
+  position: $pos;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+}
+
+@mixin font($fontsize, $lineheight, $fontweight: 400,$color:$maingray){
+  font-size: $fontsize;
+  line-height: $lineheight;
+  font-weight: $fontweight;
+  color: $color;
+}
